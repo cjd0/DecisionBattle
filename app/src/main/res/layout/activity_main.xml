@@ -18,27 +18,27 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/BtnMenuToBattle"
+            android:id="@+id/btnMenuToBattle"
             android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:text="@string/battle" />
 
         <Button
-            android:id="@+id/BtnMenuToHoH"
+            android:id="@+id/btnMenuToHoH"
             android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/hall_of_heroes" />
 
         <Button
-            android:id="@+id/BtnMenuToHelp"
+            android:id="@+id/btnMenuToHelp"
             android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/help" />
 
         <Button
-            android:id="@+id/BtnMenuToSettings"
+            android:id="@+id/btnMenuToSettings"
             android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"

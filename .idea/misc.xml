@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Chris/AndroidStudioProjects/DecisionBattle/app/src/main/res/layout/activity_battle.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/DecisionBattle/app/src/main/res/layout/activity_hall_of_heroes.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/DecisionBattle/app/src/main/res/layout/activity_help.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Chris/AndroidStudioProjects/DecisionBattle/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/DecisionBattle/app/src/main/res/layout/activity_settings.xml" value="0.358695652173913" />
       </map>
     </option>
   </component>
