@@ -4,4 +4,9 @@
     <string name="hall_of_heroes">Hall of Heroes</string>
     <string name="settings">Settings</string>
     <string name="battle">Battle</string>
+    <string name="enter_choice">Enter choice...</string>
+    <string name="Add">+</string>
+    <string name="war">War</string>
+    <string name="skirmish">Skirmish</string>
+    <string name="instant">Instant</string>
 </resources>
