@@ -33,11 +33,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="236dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
 
             <EditText
                 android:id="@+id/etBattleInput"
-                android:layout_width="356dp"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="@string/enter_choice"
@@ -48,9 +49,8 @@
 
             <Button
                 android:id="@+id/btnBattleAddChoice"
-                android:layout_width="0dp"
+                android:layout_width="48dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="@string/Add" />
         </LinearLayout>
 
