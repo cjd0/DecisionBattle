@@ -48,21 +48,21 @@ public class Battle extends AppCompatActivity {
         btnWar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                StartBattle(0);
+                StartBattle("War");
             }
         });
 
         btnSkirmish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                StartBattle(1);
+                StartBattle("Skirmish");
             }
         });
 
         btnInstant.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                StartBattle(2);
+                StartBattle("Instant");
             }
         });
     }
@@ -77,7 +77,7 @@ public class Battle extends AppCompatActivity {
         //add code to add input to list, update list textview, then clear input
     }
 
-    public void StartBattle(int battleType) {
-        //add code for battle, 0 = war, 1 = skirmish, 2 = instant
+    public void StartBattle(String battleType) {
+        //add code for battle, pass through list and battleType to battle activity
     }
 }

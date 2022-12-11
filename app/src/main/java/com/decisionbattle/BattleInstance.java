@@ -10,24 +10,27 @@ public class BattleInstance {
     ArrayList<String> combatants;
     Date battleDate;
     String winner;
+    String battleType;
 
     @Override
     public String toString() {
         return "Date: '" + battleDate.toString() +
-                ". Combatants: '" + combatants +
+                ". Type: " + battleType +
+                ". Combatants: '" + combatants.toString() +
                 ". Winner: '" + winner + "'.";
     }
 
-    public BattleInstance(ArrayList<String> combatants) {
+    public BattleInstance(ArrayList<String> combatants, String battleType) {
 
         this.combatants = combatants;
+
+        this.battleType = battleType;
 
         //set winner to non-null default state, winner will be set properly at the end of the battle
         this.winner = "";
 
         //set the date variable to the current date
         this.battleDate = Calendar.getInstance().getTime();
-
 
     }
 
@@ -55,5 +58,13 @@ public class BattleInstance {
 
     public void setWinner(String winner) {
         this.winner = winner;
+    }
+
+    public String getBattleType() {
+        return battleType;
+    }
+
+    public void setBattleType(String battleType) {
+        this.battleType = battleType;
     }
 }
