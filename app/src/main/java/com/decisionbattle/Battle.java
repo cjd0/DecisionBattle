@@ -9,12 +9,17 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class Battle extends AppCompatActivity {
 
     //UI variables
     Button btnHelp, btnAdd, btnWar, btnSkirmish, btnInstant;
     EditText etInput;
     TextView tvChoices;
+
+    //functional variables
+    ArrayList<String> battleChoices = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,7 +79,23 @@ public class Battle extends AppCompatActivity {
     }
 
     public void AddChoiceToList(){
-        //add code to add input to list, update list textview, then clear input
+        //define input variable
+        String input = etInput.getText().toString();
+
+        //add to list
+        battleChoices.add(input);
+
+        //add to TextView
+        //if first entry do not prefix with comma and space
+        if (tvChoices.getText().toString().isEmpty()) {
+            tvChoices.setText(input);
+        }
+        else {
+            tvChoices.append(", " + input);
+        }
+
+        //clear input field
+        etInput.setText("");
     }
 
     public void StartBattle(String battleType) {

@@ -32,9 +32,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="236dp"
-            android:orientation="horizontal"
-            android:gravity="center_horizontal">
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
 
             <EditText
                 android:id="@+id/etBattleInput"
@@ -51,13 +51,15 @@
                 android:id="@+id/btnBattleAddChoice"
                 android:layout_width="48dp"
                 android:layout_height="wrap_content"
-                android:text="@string/Add" />
+                android:text="@string/Add"
+                tools:ignore="TouchTargetSizeCheck" />
         </LinearLayout>
 
         <TextView
             android:id="@+id/tvBattleList"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="300dp"
+            android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
