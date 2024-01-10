@@ -9,8 +9,7 @@ public class BattleInstance {
 
     ArrayList<String> combatants;
     Date battleDate;
-    String winner;
-    String battleType;
+    String winner, battleType;
 
     @Override
     public String toString() {
